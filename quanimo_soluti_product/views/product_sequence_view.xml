@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+
+        <record id="sequence_view_product_sequence" model="ir.ui.view">
+            <field name="model">ir.sequence</field>
+            <field name="inherit_id" ref="base.sequence_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='code']" position="attributes">
+                    <attribute name="invisible">context.get('hide_code')</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="ir_sequence_form_product" model="ir.actions.act_window">
+            <field name="name">Sequences</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ir.sequence</field>
+            <field name="domain">[('code', '=ilike', 'product.product.default_code%')]</field>
+            <field name="context">{
+                'active_test': False,
+                'default_code': 'product.product.default_code',
+                'hide_code': 1
+            }</field>
+            <field name="view_id" ref="base.sequence_view_tree"/>
+        </record>
+
+        <menuitem id="product_sequence_menu_purchase" name="Sequences" action="ir_sequence_form_product"
+                  parent="purchase.menu_purchase_products" sequence="21"/>
+
+        <menuitem id="product_sequence_menu_sale" name="Sequences" action="ir_sequence_form_product"
+                  parent="sale.product_menu_catalog" sequence="31"/>
+
+    </data>
+</odoo>

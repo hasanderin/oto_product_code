@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="purchase_order_form_update_sale_price" model="ir.ui.view">
+        <field name="name">purchase.order.form.update.sale.price</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button string="Update Sale Price" type="object" name="update_product_prices_wizard"
+                        class="btn btn-primary" attrs="{'invisible': [('state', 'not in', ['purchase', 'done'])]}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <data>
+
+        <record id="update_sale_price_form" model="ir.ui.view">
+            <field name="name">update.sale.price.wizard.form</field>
+            <field name="model">update.sale.price.wizard</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="rate"/>
+                    </group>
+                    <notebook>
+                        <page string="Product(s)">
+                            <field name="update_line" nolabel="1">
+                                <tree editable="bottom" create="0" delete="0">
+                                    <field name="product_id"/>
+                                    <field name="list_price_change_date"/>
+                                    <field name="rate"/>
+                                    <field name="list_price" string="Old List Price"/>
+                                    <field name="price"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+
+                    <footer>
+                        <field name="disable_update_button" invisible="True"/>
+                        <button name="action_update_product_prices"
+                                attrs="{'invisible': [('disable_update_button', '=', True)]}"
+                                string="Update Prices" type="object" class="oe_highlight"/>
+
+                        <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="z"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="update_sale_price_action" model="ir.actions.act_window">
+            <field name="name">Update Sale Price</field>
+            <field name="res_model">update.sale.price.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+
+</odoo>

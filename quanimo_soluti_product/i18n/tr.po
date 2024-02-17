@@ -1,0 +1,222 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quanimo_soluti_product
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-29 09:02+0000\n"
+"PO-Revision-Date: 2023-12-29 09:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: quanimo_soluti_product
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.product_sale_label_view_pdf
+msgid ""
+"<span>Origin</span>\n"
+"                                        <br/>"
+msgstr ""
+"<span>Menşei</span>\n"
+"                                        <br/>"
+
+#. module: quanimo_soluti_product
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.product_sale_label_view_pdf
+msgid ""
+"<span>Price Change Date</span>\n"
+"                                        <br/>"
+msgstr ""
+"<span>Fiyat Değişim tarihi</span>\n"
+"                                        <br/>"
+
+
+#. module: quanimo_soluti_product
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.update_sale_price_form
+msgid "Cancel"
+msgstr "İptal"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__create_uid
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__create_uid
+msgid "Created by"
+msgstr "Oluşturan"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__create_date
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__create_date
+msgid "Created on"
+msgstr "Oluşturulma"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__disable_update_button
+msgid "Disable Update Button"
+msgstr ""
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__display_name
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__display_name
+msgid "Display Name"
+msgstr "Görünüm Adı"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__id
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__id
+msgid "ID"
+msgstr ""
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard____last_update
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line____last_update
+msgid "Last Modified on"
+msgstr "Son Düzenleme"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__write_uid
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__write_uid
+msgid "Last Updated by"
+msgstr "Son Güncelleyen"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__write_date
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__write_date
+msgid "Last Updated on"
+msgstr "Son Güncelleme"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_product_product__list_price_change_date
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_product_template__list_price_change_date
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__list_price_change_date
+msgid "List Price Change Date"
+msgstr "Satış Fiyatı Güncelleme Tarihi"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_product_product__price_rate
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_product_template__price_rate
+msgid "List Price Rate"
+msgstr "Satış Fiyat Oranı"
+
+#. module: quanimo_soluti_product
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.update_sale_price_form
+msgid "Old List Price"
+msgstr "Eski Satış Fiyatı"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__parent_id
+msgid "Parent"
+msgstr ""
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__price
+msgid "Price"
+msgstr "Fiyat"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,help:quanimo_soluti_product.field_update_sale_price_wizard_line__list_price
+msgid "Price at which the product is sold to customers."
+msgstr ""
+
+#. module: quanimo_soluti_product
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.update_sale_price_form
+msgid "Print Label"
+msgstr "Etiketleri Yazdır"
+
+#. module: quanimo_soluti_product
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.product_normal_form_view_sequence_id
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.product_template_only_form_view_sequence_id
+msgid "Print Sale Label"
+msgstr "Satış Etiketleri Yazdır"
+
+#. module: quanimo_soluti_product
+#: model:ir.model,name:quanimo_soluti_product.model_product_template
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__product_id
+msgid "Product"
+msgstr "Ürün"
+
+#. module: quanimo_soluti_product
+#: model:ir.actions.report,name:quanimo_soluti_product.action_product_sale_label_report
+msgid "Product Sale Label"
+msgstr "Ürün Satış Etiketi"
+
+#. module: quanimo_soluti_product
+#: model:ir.model,name:quanimo_soluti_product.model_product_product
+msgid "Product Variant"
+msgstr "Ürün Varyantı"
+
+#. module: quanimo_soluti_product
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.update_sale_price_form
+msgid "Product(s)"
+msgstr "Ürün(ler)"
+
+#. module: quanimo_soluti_product
+#: model:ir.model,name:quanimo_soluti_product.model_purchase_order
+msgid "Purchase Order"
+msgstr "Satınalma Siparişi"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__rate
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__rate
+msgid "Rate"
+msgstr "Oran"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard_line__list_price
+msgid "Sales Price"
+msgstr "Satış Fiyatı"
+
+#. module: quanimo_soluti_product
+#: model:ir.model,name:quanimo_soluti_product.model_ir_sequence
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_product_product__sequence_id
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_product_template__sequence_id
+msgid "Sequence"
+msgstr "Sıralama"
+
+#. module: quanimo_soluti_product
+#: model:ir.actions.act_window,name:quanimo_soluti_product.ir_sequence_form_product
+#: model:ir.ui.menu,name:quanimo_soluti_product.product_sequence_menu_purchase
+#: model:ir.ui.menu,name:quanimo_soluti_product.product_sequence_menu_sale
+msgid "Sequences"
+msgstr "Sıralamalar"
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_update_sale_price_wizard__update_line
+msgid "Update Line"
+msgstr ""
+
+#. module: quanimo_soluti_product
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.update_sale_price_form
+msgid "Update Prices"
+msgstr "Fiyatları Güncelle"
+
+#. module: quanimo_soluti_product
+#. odoo-python
+#: code:addons/quanimo_soluti_product/models/purchase.py:0
+#: model:ir.actions.act_window,name:quanimo_soluti_product.update_sale_price_action
+#: model_terms:ir.ui.view,arch_db:quanimo_soluti_product.purchase_order_form_update_sale_price
+#, python-format
+msgid "Update Sale Price"
+msgstr "Satış Fiyatı Güncelle"
+
+#. module: quanimo_soluti_product
+#: model:ir.model,name:quanimo_soluti_product.model_report_quanimo_soluti_product_product_sale_label_view_pdf
+msgid "report.quanimo_soluti_product.product_sale_label_view_pdf"
+msgstr ""
+
+#. module: quanimo_soluti_product
+#: model:ir.model,name:quanimo_soluti_product.model_update_sale_price_wizard
+msgid "update.sale.price.wizard"
+msgstr ""
+
+#. module: quanimo_soluti_product
+#: model:ir.model,name:quanimo_soluti_product.model_update_sale_price_wizard_line
+msgid "update.sale.price.wizard.line"
+msgstr ""
+
+#. module: quanimo_soluti_product
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_product_product__stock_code
+#: model:ir.model.fields,field_description:quanimo_soluti_product.field_product_template__stock_code
+msgid "stock Code"
+msgstr "Stok Kodu"

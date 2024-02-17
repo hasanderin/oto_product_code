@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="product_template_only_form_view_sequence_id" model="ir.ui.view">
+        <field name="name">product.template.form.sequence.id</field>
+        <field name="model">product.template</field>
+        <field name="priority">9</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='default_code']" position="before">
+                <field name="sequence_id"/>
+                <field name="stock_code"/>
+                <field name="price_rate"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="product_template_tree_view_stock_code" model="ir.ui.view">
+        <field name="name">product.template.product.tree.stock.code</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='default_code']" position="after">
+                <field name="stock_code"/>
+            </xpath>
+        </field>
+    </record>
+
+            <record id="view_stock_product_tree_stock_code" model="ir.ui.view">
+            <field name="name">product.stock.tree.stock.code</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_product_tree_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='default_code']" position="after">
+                    <field name="stock_code"/>
+                </xpath>
+            </field>
+        </record>
+
+    <record id="product_normal_form_view_sequence_id" model="ir.ui.view">
+        <field name="name">product.normal.form.sequence.id</field>
+        <field name="model">product.product</field>
+        <field name="priority">9</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='default_code']" position="before">
+                <field name="sequence_id"/>
+                <field name="stock_code"/>
+                <field name="price_rate"/>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>
